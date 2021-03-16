@@ -1,0 +1,69 @@
+.naoencontrada {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.naoencontrada>h2 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 38px;
+    /* or 45% */
+    text-align: center;
+    /* ID EMITTE/AZUL ESCURO */
+    color: #0050DC;
+}
+
+.naoencontrada-imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagea {
+    margin-top: -100px;
+    width: 292.11px;
+    height: 358.1px;
+}
+
+.imageb {
+    margin-top: -200px;
+    width: 502.48px;
+    height: 328.42px;
+}
+
+.btn {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    /* ID EMITTE/AZUL ESCURO */
+    background: #0050DC;
+    /* ID EMITTE/AZUL ESCURO */
+    border: 1px solid #0050DC;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.btn-text {
+    font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+align-items: center;
+
+/* ID EMITTE/BRANCO */
+
+color: #FFFFFF;
+}
