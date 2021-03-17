@@ -40,30 +40,26 @@
 }
 
 .btn {
+    cursor: pointer;
+    outline: 0px solid transparent;
     margin-top: 20px;
-    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     width: 270px;
-    height: 60px;
+    height: 50px;
     /* ID EMITTE/AZUL ESCURO */
     background: #0050DC;
     /* ID EMITTE/AZUL ESCURO */
     border: 1px solid #0050DC;
     box-sizing: border-box;
     border-radius: 100px;
-}
-
-.btn-text {
     font-family: Avenir;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height, or 122% */
-
-align-items: center;
-
-/* ID EMITTE/BRANCO */
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    /* ID EMITTE/BRANCO */
+    color: #FFFFFF;
 }
