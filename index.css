@@ -70,4 +70,10 @@
     font-size: 18px;
     /* ID EMITTE/BRANCO */
     color: #FFFFFF;
+    transition: all .3s;
+}
+
+.btn:hover {
+    box-shadow: 0px 1px 10px #0050DC;
+    background-color: #0050DC;
 }
